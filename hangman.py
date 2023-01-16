@@ -58,7 +58,7 @@ def sjekk_bokstav():
 sjultord = ""
 alfabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ!"
 lite_alfabet = "abcdefghijklmnopqrstuvwxyzæøå!"
-ord = "JONAS SUGER I HANGMAN!"
+ord = "HANGMAN"
 antall_feil = 0
  
 for bokstav in ord:
