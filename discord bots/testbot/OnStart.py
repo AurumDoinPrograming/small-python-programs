@@ -8,5 +8,5 @@ async def on_ready():
     print ('bot is ready')
     print('We have logged in as {0.user}'.format(client))
 
-TOKEN = "OTQyNDU1NDEwMDM4ODIwODY0.Ygkv_w.wWc7Ula-MzNKNw41xdGH9-Mo28c"
+TOKEN = ""
 client.run((TOKEN), reconnect=True)
