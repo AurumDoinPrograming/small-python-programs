@@ -190,4 +190,4 @@ if not os.path.exists(CONFIG_PATH):
 config = read_config()
 bot = Bot(config["prefix"], description="A ModMail Bot.")
 bot.add_cog(ModmailBot(bot, config))
-bot.run(config["OTMzMzkyMzgxNDYwNDgwMDYw.Yeg3ZQ.SAI_aXL4ync-jSa3EPO0g0coWME"])
+bot.run(config["TOKEN"])
