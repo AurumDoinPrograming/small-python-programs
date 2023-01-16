@@ -1,7 +1,7 @@
 import discord 
 from discord.ext import commands
 
-TOKEN = "OTQyNDU1NDEwMDM4ODIwODY0.Ygkv_w.wWc7Ula-MzNKNw41xdGH9-Mo28c"
+TOKEN = "TOKEN"
 
 bot = commands.Bot(command_prefix="!")
 guild = 676319495127564288
