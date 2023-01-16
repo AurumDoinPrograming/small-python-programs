@@ -42,4 +42,4 @@ async def on_resumed():
 
     
 
-client.run(('OTQyNDU1NDEwMDM4ODIwODY0.Ygkv_w.wWc7Ula-MzNKNw41xdGH9-Mo28c'), reconnect=True)
+client.run(('TOKEN'), reconnect=True)
