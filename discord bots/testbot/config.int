@@ -1,0 +1,9 @@
+import discord 
+from discord.ext import commands
+
+TOKEN = "OTQyNDU1NDEwMDM4ODIwODY0.Ygkv_w.wWc7Ula-MzNKNw41xdGH9-Mo28c"
+
+bot = commands.Bot(command_prefix="!")
+guild = 676319495127564288
+role = 699527624208285777
+channel = 676319927870947330
