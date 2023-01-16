@@ -44,4 +44,4 @@ async def on_command_error(ctx, error):
     ctx.send("Please pass all required arguments")
 
 print('bot is running')
-bot.run("OTQyNDU1NDEwMDM4ODIwODY0.Ygkv_w.wWc7Ula-MzNKNw41xdGH9-Mo28c")
+bot.run("TOKEN")
