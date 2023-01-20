@@ -38,4 +38,4 @@ async def ping(ctx):
 @client.event 
 async def on_resumed():
     print('reconnected')
-client.run(('Token'), reconnect=True) # Bot reconnect
+client.run(('TOKEN'), reconnect=True) # Bot reconnect
