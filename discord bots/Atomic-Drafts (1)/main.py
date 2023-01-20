@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "OTQyMDQzNDcxODk4ODY5ODAx.YgewWg.ywGWWno3hEN5BvluR1KGBZcYeao" 
+TOKEN = "token" 
 
 client = commands.Bot(command_prefix=commands.when_mentioned_or("!r "), case_insensitive=True)
 
@@ -38,4 +38,4 @@ async def ping(ctx):
 @client.event 
 async def on_resumed():
     print('reconnected')
-client.run(('OTQyMDQzNDcxODk4ODY5ODAx.YgewWg.ywGWWno3hEN5BvluR1KGBZcYeao'), reconnect=True) # Bot reconnect
+client.run(('Token'), reconnect=True) # Bot reconnect
